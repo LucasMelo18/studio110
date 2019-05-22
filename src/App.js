@@ -3,6 +3,7 @@ import Navbar from './Navbar/Navbar';
 import Footer from './Footer/Footer';
 import Banner from './Banner/Banner';
 import About from './About/About';
+import Contact from './Contact/Contact';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
 
       <Banner />
       <About />
-
+      <Contact />
       <Footer />
     </div>
   );
