@@ -1,0 +1,52 @@
+.pure-form{
+  align-items:flex-start;
+  display: flex;
+}
+.contact{
+  background-color: rgb(255, 248, 188);
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+  padding: 40px;
+}
+.contact h2{
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 30px;
+}
+
+.contact section:last-child{
+  text-align: center;
+}
+
+.pure-form div{
+  display: flex;
+  flex-direction: column;
+}
+
+.pure-form div input{
+  border: 1px solid rgba(160, 160, 159, 1);
+  color: #605E5E;
+  margin: 10px;
+  padding: 2px;
+  width: 235px;
+}
+
+.pure-form div:first-child input{
+  height: 33px;
+}
+
+.pure-form div:nth-child(2) textarea{
+  height: 100px;
+  padding: 5px;
+  resize: none;
+  width: 235px;
+}
+
+.pure-form div:nth-child(2) button{
+  align-self: flex-end;
+  border: none;
+  cursor: pointer;
+  height: 30px;
+  margin: 15px 0 20px 0;
+  width: 50px;
+}
